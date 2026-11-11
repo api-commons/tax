@@ -1,0 +1,22 @@
+provider: thomson-reuters
+apis_io: https://apis.io/providers/thomson-reuters/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_calculation:
+    path_segment:
+    - calculate
+    properties:
+      tax_amount: totalTaxAmount
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.json#POST /v1/calculate
+    - openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.yml#POST /v1/calculate
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.json#PUT /v1/tax-years/{tax-year}/pans/{pan}/accounts/{acctNo}/transactions/{transactionid}
+    - openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.yml#PUT /v1/tax-years/{tax-year}/pans/{pan}/accounts/{acctNo}/transactions/{transactionid}

@@ -1,0 +1,73 @@
+context: tax
+generated: '2026-11-11'
+adopters:
+- provider: avalara
+  apis_io: https://apis.io/providers/avalara/
+  crosswalk: crosswalk/avalara.yml
+  concepts:
+  - tax_calculation
+  - tax_transaction
+- provider: cadana
+  apis_io: https://apis.io/providers/cadana/
+  crosswalk: crosswalk/cadana.yml
+  concepts:
+  - tax_transaction
+- provider: fonoa
+  apis_io: https://apis.io/providers/fonoa/
+  crosswalk: crosswalk/fonoa.yml
+  concepts:
+  - tax_calculation
+  - tax_transaction
+- provider: kintsugi
+  apis_io: https://apis.io/providers/kintsugi/
+  crosswalk: crosswalk/kintsugi.yml
+  concepts:
+  - tax_transaction
+- provider: numeral
+  apis_io: https://apis.io/providers/numeral/
+  crosswalk: crosswalk/numeral.yml
+  concepts:
+  - tax_calculation
+  - tax_transaction
+- provider: para-t
+  apis_io: https://apis.io/providers/para-t/
+  crosswalk: crosswalk/para-t.yml
+  concepts:
+  - tax_transaction
+- provider: procuros
+  apis_io: https://apis.io/providers/procuros/
+  crosswalk: crosswalk/procuros.yml
+  concepts:
+  - tax_transaction
+- provider: quaderno
+  apis_io: https://apis.io/providers/quaderno/
+  crosswalk: crosswalk/quaderno.yml
+  concepts:
+  - tax_calculation
+  - tax_transaction
+- provider: sibill
+  apis_io: https://apis.io/providers/sibill/
+  crosswalk: crosswalk/sibill.yml
+  concepts:
+  - tax_transaction
+- provider: taxjar
+  apis_io: https://apis.io/providers/taxjar/
+  crosswalk: crosswalk/taxjar.yml
+  concepts:
+  - tax_transaction
+- provider: thomson-reuters
+  apis_io: https://apis.io/providers/thomson-reuters/
+  crosswalk: crosswalk/thomson-reuters.yml
+  concepts:
+  - tax_calculation
+  - tax_transaction
+- provider: workday-payroll
+  apis_io: https://apis.io/providers/workday-payroll/
+  crosswalk: crosswalk/workday-payroll.yml
+  concepts:
+  - tax_calculation
+- provider: zenledger
+  apis_io: https://apis.io/providers/zenledger/
+  crosswalk: crosswalk/zenledger.yml
+  concepts:
+  - tax_transaction

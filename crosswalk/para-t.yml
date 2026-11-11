@@ -1,0 +1,16 @@
+provider: para-t
+apis_io: https://apis.io/providers/para-t/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties:
+      id: id
+      type: type
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/para-t-openapi-original.yml#DELETE /{company_id}/transactions/{id}
+    - openapi/_original/para-t-openapi-original.yml#GET /{company_id}/accounts/{id}/transactions
+    - openapi/_original/para-t-openapi-original.yml#GET /{company_id}/transactions/{id}

@@ -1,0 +1,22 @@
+provider: kintsugi
+apis_io: https://apis.io/providers/kintsugi/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties:
+      id: id
+      amount: taxable_amount
+      date: date
+      line_items: items
+      currency: currency
+      status: status
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/kintsugi-openapi.yml#GET /filings/{filing_id}/transactions
+    - openapi/_original/kintsugi-openapi.yml#GET /transactions
+    - openapi/_original/kintsugi-openapi.yml#GET /transactions/{id}
+    - openapi/_original/kintsugi-openapi.yml#PATCH /transactions/{id}
+    - openapi/_original/kintsugi-openapi.yml#POST /transactions

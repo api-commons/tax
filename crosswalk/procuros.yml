@@ -1,0 +1,15 @@
+provider: procuros
+apis_io: https://apis.io/providers/procuros/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties:
+      type: type
+    core_coverage: 0.25
+    evidence:
+    - openapi/_original/procuros-openapi-original.yml#GET /v2/transactions
+    - openapi/_original/procuros-openapi-original.yml#POST /v2/transactions
+    - openapi/_original/procuros-openapi-original.yml#PUT /v2/transactions/{procurosTransactionId}

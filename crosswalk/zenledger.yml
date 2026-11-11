@@ -1,0 +1,13 @@
+provider: zenledger
+apis_io: https://apis.io/providers/zenledger/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/zenledger-compliance-api-openapi.yml#GET /compliance/api/v3/companies/{company_reference}/transactions
+    - openapi/_original/zenledger-compliance-api-openapi.yml#GET /compliance/api/v3/companies/{company_reference}/users/{user_id}/transactions

@@ -1,0 +1,757 @@
+[
+ {
+  "slug": "agicap",
+  "specs": [
+   "openapi/_original/agicap-ar-clients-v1-openapi.json",
+   "openapi/_original/agicap-auth-v1-openapi.json",
+   "openapi/_original/agicap-banking-documents-v1-openapi.json",
+   "openapi/_original/agicap-business-documents-v1-openapi.json",
+   "openapi/_original/agicap-business-documents-v2-openapi.json",
+   "openapi/_original/agicap-card-expenses-bank-journal-v1-openapi.json",
+   "openapi/_original/agicap-chart-of-accounts-v1-openapi.json",
+   "openapi/_original/agicap-client-risk-v1-openapi.json",
+   "openapi/_original/agicap-einvoicing-v1-openapi.json",
+   "openapi/_original/agicap-events-v1-openapi.json",
+   "openapi/_original/agicap-financial-investments-v1-openapi.json",
+   "openapi/_original/agicap-httpbin-v1-openapi.json",
+   "openapi/_original/agicap-intragroup-financing-v1-openapi.json",
+   "openapi/_original/agicap-invoices-management-v1-openapi.json",
+   "openapi/_original/agicap-organizations-v1-openapi.json",
+   "openapi/_original/agicap-payments-v2-openapi.json",
+   "openapi/_original/agicap-purchase-journal-v1-openapi.json",
+   "openapi/_original/agicap-suppliers-v1-openapi.json",
+   "openapi/_original/agicap-treasury-bank-journal-v1-openapi.json"
+  ]
+ },
+ {
+  "slug": "aibidia",
+  "specs": [
+   "openapi/_original/aibidia-horizon-public-openapi.json",
+   "openapi/_original/aibidia-otp-management-public-openapi.yml",
+   "openapi/_original/aibidia-otpm-public-openapi.json",
+   "openapi/_original/aibidia-tp-ai-openapi.yml",
+   "openapi/_original/aibidia-tpai-openapi.json"
+  ]
+ },
+ {
+  "slug": "anrok",
+  "specs": [
+   "openapi/_original/anrok-openapi.yml"
+  ]
+ },
+ {
+  "slug": "automatic-data-processing",
+  "specs": [
+   "openapi/_original/benefits-beneficiaries-v1-openapi-original.json",
+   "openapi/_original/benefits-dependents-v1-openapi-original.json",
+   "openapi/_original/benefits-external-plans-v1-openapi-original.json",
+   "openapi/_original/hcm-applicant-onboarding-v2-openapi-original.json",
+   "openapi/_original/hcm-validation-tables-v1-openapi-original.json",
+   "openapi/_original/hcm-wfn-codelists-v3-openapi-original.json",
+   "openapi/_original/hr-corporate-directory-v1-openapi-original.json",
+   "openapi/_original/hr-hr-work-assignment-management-v3-openapi-original.json",
+   "openapi/_original/hr-hr-worker-profiles-v1-openapi-original.json",
+   "openapi/_original/hr-personal-contacts-v2-openapi-original.json",
+   "openapi/_original/hr-worker-associate-profiles-v2-openapi-original.json",
+   "openapi/_original/hr-worker-demographics-v2-openapi-original.json",
+   "openapi/_original/hr-worker-leaves-v2-openapi-original.json",
+   "openapi/_original/hr-workers-biological-data-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-business-communication-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-compensation-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-custom-data-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-data-integration-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-demographic-data-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-identification-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-ksaoc-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-lifecycle-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-person-custom-data-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-personal-communication-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-v2-openapi-original.json",
+   "openapi/_original/hr-workers-work-assignment-management-v2-openapi-original.json",
+   "openapi/_original/hr-workers-work-deployment-management-v2-openapi-original.json",
+   "openapi/_original/payroll-deduction-configurations-v3-openapi-original.json",
+   "openapi/_original/payroll-general-ledger-documents-v1-openapi-original.json",
+   "openapi/_original/payroll-pay-data-input-v1-openapi-original.json",
+   "openapi/_original/payroll-pay-distributions-v2-openapi-original.json",
+   "openapi/_original/payroll-pay-statements-v1-openapi-original.json",
+   "openapi/_original/payroll-payroll-group-pay-periods-v1-openapi-original.json",
+   "openapi/_original/payroll-payroll-outputs-v2-openapi-original.json",
+   "openapi/_original/payroll-tax-policy-eligibility-solutions-v1-openapi-original.json",
+   "openapi/_original/payroll-us-tax-profiles-v1-openapi-original.json",
+   "openapi/_original/payroll-us-tax-profiles-v2-openapi-original.json",
+   "openapi/_original/payroll-worker-payroll-instructions-v1-openapi-original.json",
+   "openapi/_original/staffing-job-applicants-v2-openapi-original.json",
+   "openapi/_original/staffing-job-applications-v2-openapi-original.json",
+   "openapi/_original/staffing-job-requisitions-v1-openapi-original.json",
+   "openapi/_original/staffing-recruiting-questionnaires-v3-openapi-original.json",
+   "openapi/_original/talent-associate-certifications-v2-openapi-original.json",
+   "openapi/_original/talent-associate-competencies-v2-openapi-original.json",
+   "openapi/_original/talent-associate-educational-degrees-v2-openapi-original.json",
+   "openapi/_original/talent-associate-languages-v2-openapi-original.json",
+   "openapi/_original/talent-associate-licenses-v2-openapi-original.json",
+   "openapi/_original/talent-associate-memberships-v2-openapi-original.json",
+   "openapi/_original/talent-associate-recognitions-v2-openapi-original.json",
+   "openapi/_original/time-data-collection-entries-v1-openapi-original.json",
+   "openapi/_original/time-labor-allocation-code-uploads-v2-openapi-original.json",
+   "openapi/_original/time-team-time-cards-v2-openapi-original.json",
+   "openapi/_original/time-time-card-inputs-v1-openapi-original.json",
+   "openapi/_original/time-time-cards-v2-openapi-original.json",
+   "openapi/_original/time-time-off-balances-v3-openapi-original.json",
+   "openapi/_original/time-time-off-requests-v2-openapi-original.json",
+   "openapi/_original/time-time-off-requests-v3-openapi-original.json",
+   "openapi/_original/time-work-schedule-entry-uploads-v2-openapi-original.json",
+   "openapi/_original/time-work-schedules-v1-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "avalara",
+  "specs": [
+   "openapi/_original/avalara-1099-w9-openapi.yml",
+   "openapi/_original/avalara-activation-service-openapi.yml",
+   "openapi/_original/avalara-avatax-brazil-openapi.yml",
+   "openapi/_original/avalara-avatax-rest-openapi.yml",
+   "openapi/_original/avalara-business-openapi.yml",
+   "openapi/_original/avalara-certcapture-openapi.yml",
+   "openapi/_original/avalara-communications-openapi.yml",
+   "openapi/_original/avalara-e-invoicing-openapi.yml",
+   "openapi/_original/avalara-excise-openapi.yml",
+   "openapi/_original/avalara-hs-code-classification-openapi.yml",
+   "openapi/_original/avalara-item-classification-openapi.yml",
+   "openapi/_original/avalara-mylodgetax-openapi.yml",
+   "openapi/_original/avalara-portal-oauth-openapi.yml",
+   "openapi/_original/avalara-shared-company-service-openapi.yml",
+   "openapi/_original/avalara-shipping-verification-openapi.yml",
+   "openapi/_original/avalara-vat-reporting-openapi.yml",
+   "openapi/_original/avatax-apis-openapi.yml"
+  ]
+ },
+ {
+  "slug": "basware",
+  "specs": [
+   "openapi/_original/basware-authentication-openapi.json",
+   "openapi/_original/basware-data-extract-openapi.json",
+   "openapi/_original/basware-directory-openapi.json",
+   "openapi/_original/basware-p2p-openapi.json",
+   "openapi/_original/basware-push-notification-openapi.json",
+   "openapi/_original/basware-smart-pdf-openapi.json",
+   "openapi/_original/basware-user-permission-openapi.json",
+   "openapi/_original/basware-vault-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "cadana",
+  "specs": [
+   "openapi/_original/cadana-embedded-consumer-wallets-openapi.yaml",
+   "openapi/_original/cadana-embedded-payments-openapi.yaml",
+   "openapi/_original/cadana-global-tax-openapi.yaml",
+   "openapi/_original/cadana-statutory-compliance-openapi.yaml",
+   "openapi/_original/cadana-workforce-management-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "caseys-general-stores",
+  "specs": [
+   "openapi/_original/caseys-general-stores-cas-api-openapi.json",
+   "openapi/_original/caseys-general-stores-cas-gateway-api-openapi.json",
+   "openapi/_original/caseys-general-stores-devops-metrics-api-openapi.json",
+   "openapi/_original/caseys-general-stores-digital-production-planner-api-openapi.json",
+   "openapi/_original/caseys-general-stores-fuel-price-api-openapi.json",
+   "openapi/_original/caseys-general-stores-item-api-openapi.json",
+   "openapi/_original/caseys-general-stores-itsm-api-openapi.json",
+   "openapi/_original/caseys-general-stores-kitchen-supply-ordering-api-openapi.json",
+   "openapi/_original/caseys-general-stores-old-store-api-openapi.json",
+   "openapi/_original/caseys-general-stores-power-inventory-api-openapi.json",
+   "openapi/_original/caseys-general-stores-production-planner-api-openapi.json",
+   "openapi/_original/caseys-general-stores-shelf-label-print-api-openapi.json",
+   "openapi/_original/caseys-general-stores-store-api-openapi.json",
+   "openapi/_original/caseys-general-stores-store-details-api-openapi.json",
+   "openapi/_original/caseys-general-stores-store-messaging-api-openapi.json",
+   "openapi/_original/caseys-general-stores-store-number-api-openapi.json",
+   "openapi/_original/caseys-general-stores-supplier-api-openapi.json",
+   "openapi/_original/caseys-general-stores-tank-level-api-openapi.json",
+   "openapi/_original/caseys-general-stores-tax-api-openapi.json",
+   "openapi/_original/caseys-general-stores-team-member-api-openapi.json",
+   "openapi/_original/caseys-general-stores-vendor-checkin-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "causa-prima",
+  "specs": [
+   "openapi/_original/causa-prima-scribo-openapi.json"
+  ]
+ },
+ {
+  "slug": "charityapi",
+  "specs": [
+   "openapi/_original/charityapi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "check-hq",
+  "specs": [
+   "openapi/_original/check-hq-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "contalink",
+  "specs": [
+   "openapi/_original/contalink-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "earnipay",
+  "specs": [
+   "openapi/_original/earnipay-e-invoicing-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "ecosio",
+  "specs": [
+   "openapi/_original/ecosio-api-openapi.json",
+   "openapi/_original/ecosio-api-readme-slices.json",
+   "openapi/_original/ecosio-management-api-openapi.json",
+   "openapi/_original/ecosio-management-api-readme-slices.json",
+   "openapi/_original/ecosio-vertex-messaging-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "fastspring",
+  "specs": [
+   "openapi/_original/fastspring-openapi.yml"
+  ]
+ },
+ {
+  "slug": "flatin-pt",
+  "specs": [
+   "openapi/_original/flatin-pt-openapi.json"
+  ]
+ },
+ {
+  "slug": "flowaccount",
+  "specs": [
+   "openapi/_original/flowaccount-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "fonoa",
+  "specs": [
+   "openapi/_original/fonoa-e-invoicing-openapi.yml",
+   "openapi/_original/fonoa-onboarding-openapi.yml",
+   "openapi/_original/fonoa-tax-engine-openapi.yml",
+   "openapi/_original/fonoa-validate-openapi.yml"
+  ]
+ },
+ {
+  "slug": "found-business",
+  "specs": [
+   "openapi/_original/found-business-openapi.yml"
+  ]
+ },
+ {
+  "slug": "freeagent",
+  "specs": [
+   "openapi/_original/freeagent-openapi.yml"
+  ]
+ },
+ {
+  "slug": "hmrc",
+  "specs": [
+   "openapi/_original/hmrc-vat-mtd-openapi.yml"
+  ]
+ },
+ {
+  "slug": "infocert",
+  "specs": [
+   "openapi/_original/infocert-ai-face-matching-openapi.yml",
+   "openapi/_original/infocert-ai-face-matching-openapi_2.yml",
+   "openapi/_original/infocert-atum-camerfirma-openapi.yml",
+   "openapi/_original/infocert-atum-camerfirma-openapi_2.yml",
+   "openapi/_original/infocert-atum-siae-openapi.yml",
+   "openapi/_original/infocert-atum-siae-openapi_2.yml",
+   "openapi/_original/infocert-certificate-lifecycle-openapi.yml",
+   "openapi/_original/infocert-certificate-lifecycle-openapi_2.yml",
+   "openapi/_original/infocert-certificate-management-openapi.yml",
+   "openapi/_original/infocert-certificate-management-openapi_2.yml",
+   "openapi/_original/infocert-contact-validation-openapi.yml",
+   "openapi/_original/infocert-contact-validation-openapi_2.yml",
+   "openapi/_original/infocert-csc-openapi.json",
+   "openapi/_original/infocert-csc-openapi_2.json",
+   "openapi/_original/infocert-eid-gateway-oauth-openapi.yml",
+   "openapi/_original/infocert-eid-gateway-oauth-openapi_2.yml",
+   "openapi/_original/infocert-gonotice-openapi.yml",
+   "openapi/_original/infocert-gonotice-openapi_2.yml",
+   "openapi/_original/infocert-gosign-customer-user-assertions-openapi.yml",
+   "openapi/_original/infocert-gosign-customer-user-assertions-openapi_2.yml",
+   "openapi/_original/infocert-gosign-ext-5-1-openapi.yml",
+   "openapi/_original/infocert-gosign-ext-5-1-openapi_2.yml",
+   "openapi/_original/infocert-gosign-ext-5r1-openapi.yml",
+   "openapi/_original/infocert-gosign-ext-5r1-openapi_2.yml",
+   "openapi/_original/infocert-gosign-work-notifications-openapi.yml",
+   "openapi/_original/infocert-gosign-work-notifications-openapi_2.yml",
+   "openapi/_original/infocert-gosign4-work-notifications-openapi.yml",
+   "openapi/_original/infocert-gosign4-work-notifications-openapi_2.yml",
+   "openapi/_original/infocert-gosign5-openapi.yml",
+   "openapi/_original/infocert-gosign5-openapi_2.yml",
+   "openapi/_original/infocert-identity-qualification-platform-openapi.yml",
+   "openapi/_original/infocert-identity-qualification-platform-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-customer-user-assertions-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-customer-user-assertions-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-ext-5-1-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-ext-5-1-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-other-services-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-other-services-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-provisioning-admin-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-provisioning-admin-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-provisioning-inbound-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-provisioning-inbound-openapi_2.yml",
+   "openapi/_original/infocert-infocert-sign-work-notifications-openapi.yml",
+   "openapi/_original/infocert-infocert-sign-work-notifications-openapi_2.yml",
+   "openapi/_original/infocert-iqp-openapi.yml",
+   "openapi/_original/infocert-iqp-openapi_2.yml",
+   "openapi/_original/infocert-legalinvoice-openapi.yml",
+   "openapi/_original/infocert-legalinvoice-openapi_2.yml",
+   "openapi/_original/infocert-legalmail-business-mailboxes-openapi.yml",
+   "openapi/_original/infocert-legalmail-business-mailboxes-openapi_2.yml",
+   "openapi/_original/infocert-legalmail-business-openapi.yml",
+   "openapi/_original/infocert-legalmail-business-openapi_2.yml",
+   "openapi/_original/infocert-legalmail-business-provisioning-openapi.yml",
+   "openapi/_original/infocert-legalmail-business-provisioning-openapi_2.yml",
+   "openapi/_original/infocert-qualified-preservation-openapi.yml",
+   "openapi/_original/infocert-qualified-preservation-openapi_2.yml",
+   "openapi/_original/infocert-safe-lta-business-openapi.yml",
+   "openapi/_original/infocert-safe-lta-business-openapi_2.yml",
+   "openapi/_original/infocert-safe-lta-provisioning-core-openapi.yml",
+   "openapi/_original/infocert-safe-lta-provisioning-core-openapi_2.yml",
+   "openapi/_original/infocert-sign-openapi.yml",
+   "openapi/_original/infocert-sign-openapi_2.yml",
+   "openapi/_original/infocert-signature-validation-openapi.yml",
+   "openapi/_original/infocert-signature-validation-openapi_2.yml",
+   "openapi/_original/infocert-timestamp-openapi.yml",
+   "openapi/_original/infocert-timestamp-openapi_2.yml",
+   "openapi/_original/infocert-top-cades-sign-openapi.yml",
+   "openapi/_original/infocert-top-cades-sign-openapi_2.yml",
+   "openapi/_original/infocert-top-create-dossier-openapi.yml",
+   "openapi/_original/infocert-top-create-dossier-openapi_2.yml",
+   "openapi/_original/infocert-top-get-dossier-openapi.yml",
+   "openapi/_original/infocert-top-get-dossier-openapi_2.yml",
+   "openapi/_original/infocert-top-oneshot-issue-and-sign-openapi.yml",
+   "openapi/_original/infocert-top-oneshot-issue-and-sign-openapi_2.yml",
+   "openapi/_original/infocert-top-oneshot-register-openapi.yml",
+   "openapi/_original/infocert-top-oneshot-register-openapi_2.yml",
+   "openapi/_original/infocert-top-oneshot-start-openapi.yml",
+   "openapi/_original/infocert-top-oneshot-start-openapi_2.yml",
+   "openapi/_original/infocert-top-openapi.yml",
+   "openapi/_original/infocert-top-openapi_2.yml",
+   "openapi/_original/infocert-top-process-start-openapi.yml",
+   "openapi/_original/infocert-top-process-start-openapi_2.yml"
+  ]
+ },
+ {
+  "slug": "intuit",
+  "specs": [
+   "openapi/_original/quickbooks-accounting.yml"
+  ]
+ },
+ {
+  "slug": "kintsugi",
+  "specs": [
+   "openapi/_original/kintsugi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kpmg",
+  "specs": [
+   "openapi/_original/kpmg-openapi.json"
+  ]
+ },
+ {
+  "slug": "mileiq",
+  "specs": [
+   "openapi/_original/mileiq-external-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "mosey",
+  "specs": [
+   "openapi/_original/mosey-openapi.json",
+   "openapi/_original/mosey-openapi_v1.json",
+   "openapi/_original/mosey-openapi_v2.json"
+  ]
+ },
+ {
+  "slug": "numeral",
+  "specs": [
+   "openapi/_original/numeral-openapi.yml"
+  ]
+ },
+ {
+  "slug": "optionsahoy-com",
+  "specs": [
+   "openapi/_original/optionsahoy-com-openapi.json"
+  ]
+ },
+ {
+  "slug": "para-t",
+  "specs": [
+   "openapi/_original/para-t-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "procuros",
+  "specs": [
+   "openapi/_original/procuros-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "quaderno",
+  "specs": [
+   "openapi/_original/quaderno-openapi.yml"
+  ]
+ },
+ {
+  "slug": "remitian",
+  "specs": [
+   "openapi/_original/remitian-tax-payment-openapi.yml"
+  ]
+ },
+ {
+  "slug": "salsa",
+  "specs": [
+   "openapi/_original/salsa-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sibill",
+  "specs": [
+   "openapi/_original/sibill-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sirenic-eu",
+  "specs": [
+   "openapi/_original/sirenic-eu-openapi.json",
+   "openapi/_original/sirenic-eu-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sphere-tax",
+  "specs": [
+   "openapi/_original/sphere-tax-openapi.yml"
+  ]
+ },
+ {
+  "slug": "storecove",
+  "specs": [
+   "openapi/_original/openapi-3.0-with-deprecated.json",
+   "openapi/_original/openapi-3.0.json",
+   "openapi/_original/openapi.json",
+   "openapi/_original/storecove-openapi.yml"
+  ]
+ },
+ {
+  "slug": "tax-reporting-templates",
+  "specs": [
+   "openapi/_original/tax-reporting-templates-openapi.yml"
+  ]
+ },
+ {
+  "slug": "taxjar",
+  "specs": [
+   "openapi/_original/taxjar-sales-tax-openapi.yml"
+  ]
+ },
+ {
+  "slug": "taxley",
+  "specs": [
+   "openapi/_original/taxley-openapi.json"
+  ]
+ },
+ {
+  "slug": "thomson-reuters",
+  "specs": [
+   "openapi/_original/thomson-reuters-ap-exchange-api-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-ap-exchange-api-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-ap-exchange-api-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-authorities-services-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-authorities-services-openapi.yml",
+   "openapi/_original/thomson-reuters-api-documentation-for-currencies-services-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-currencies-services-openapi.yml",
+   "openapi/_original/thomson-reuters-api-documentation-for-domains-services-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-domains-services-openapi.yml",
+   "openapi/_original/thomson-reuters-api-documentation-for-jurisdictions-services-2-0-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-jurisdictions-services-2-0-openapi.yml",
+   "openapi/_original/thomson-reuters-api-documentation-for-jurisdictions-services-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-for-jurisdictions-services-openapi.yml",
+   "openapi/_original/thomson-reuters-api-documentation-openapi.json",
+   "openapi/_original/thomson-reuters-api-documentation-openapi.yml",
+   "openapi/_original/thomson-reuters-authorities-rest-apis-openapi.json",
+   "openapi/_original/thomson-reuters-authorities-rest-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-authorities-services-openapi.json",
+   "openapi/_original/thomson-reuters-authorities-services-openapi.yml",
+   "openapi/_original/thomson-reuters-authorize-openapi.json",
+   "openapi/_original/thomson-reuters-authorize-openapi.yml",
+   "openapi/_original/thomson-reuters-blueprint-service-openapi.json",
+   "openapi/_original/thomson-reuters-blueprint-service-openapi.yml",
+   "openapi/_original/thomson-reuters-calendar-due-dates-management-api-openapi.json",
+   "openapi/_original/thomson-reuters-calendar-global-content-management-api-openapi.json",
+   "openapi/_original/thomson-reuters-chart-of-accounts-api-openapi.json",
+   "openapi/_original/thomson-reuters-cloud-determination-rest-apis-1-0-0-openapi.json",
+   "openapi/_original/thomson-reuters-cloud-determination-rest-apis-1-0-0-openapi.yml",
+   "openapi/_original/thomson-reuters-cloud-determination-rest-apis-openapi.json",
+   "openapi/_original/thomson-reuters-cloud-determination-rest-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-collection-service-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-collection-service-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-collection-service-openapi.json",
+   "openapi/_original/thomson-reuters-collection-service-openapi.yml",
+   "openapi/_original/thomson-reuters-common-accounts-service-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-common-accounts-service-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-common-accounts-service-openapi.json",
+   "openapi/_original/thomson-reuters-common-accounts-service-openapi.yml",
+   "openapi/_original/thomson-reuters-common-entities-service-openapi.json",
+   "openapi/_original/thomson-reuters-common-entities-service-openapi.yml",
+   "openapi/_original/thomson-reuters-companies-api-openapi.json",
+   "openapi/_original/thomson-reuters-company-list-api-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-company-list-api-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-company-list-api-openapi.json",
+   "openapi/_original/thomson-reuters-container-images-auth-service-apis-openapi.json",
+   "openapi/_original/thomson-reuters-container-images-auth-service-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-currencies-services-openapi.json",
+   "openapi/_original/thomson-reuters-currencies-services-openapi.yml",
+   "openapi/_original/thomson-reuters-datahub-query-comparisons-service-openapi.json",
+   "openapi/_original/thomson-reuters-datahub-query-comparisons-service-openapi.yml",
+   "openapi/_original/thomson-reuters-datahub-query-service-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-datahub-query-service-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-datahub-query-service-openapi.json",
+   "openapi/_original/thomson-reuters-datahub-query-service-openapi.yml",
+   "openapi/_original/thomson-reuters-datasets-api-openapi.json",
+   "openapi/_original/thomson-reuters-datasets-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-datasets-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-datawarehouse-api-odata-1-2-openapi.json",
+   "openapi/_original/thomson-reuters-datawarehouse-api-odata-1-2-openapi.yml",
+   "openapi/_original/thomson-reuters-datawarehouse-api-odata-openapi.json",
+   "openapi/_original/thomson-reuters-datawarehouse-api-odata-openapi.yml",
+   "openapi/_original/thomson-reuters-document-management-api-1-4-openapi.json",
+   "openapi/_original/thomson-reuters-document-management-api-1-4-openapi.yml",
+   "openapi/_original/thomson-reuters-document-management-api-openapi.json",
+   "openapi/_original/thomson-reuters-e-filing-api-openapi.json",
+   "openapi/_original/thomson-reuters-eap-uat-trri-api-research-openapi.json",
+   "openapi/_original/thomson-reuters-eap-uat-trri-api-research-openapi.yml",
+   "openapi/_original/thomson-reuters-efiles-api-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-efiles-api-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-efiles-api-openapi.json",
+   "openapi/_original/thomson-reuters-engagement-manager-openapi.json",
+   "openapi/_original/thomson-reuters-engagement-manager-openapi.yml",
+   "openapi/_original/thomson-reuters-exports-api-openapi.json",
+   "openapi/_original/thomson-reuters-exports-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-exports-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-fbt-customer-api-2-openapi.json",
+   "openapi/_original/thomson-reuters-fbt-customer-api-2-openapi.yml",
+   "openapi/_original/thomson-reuters-fbt-customer-api-3-openapi.json",
+   "openapi/_original/thomson-reuters-fbt-customer-api-3-openapi.yml",
+   "openapi/_original/thomson-reuters-fbt-customer-api-openapi.json",
+   "openapi/_original/thomson-reuters-fbt-customer-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-fbt-customer-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-firmflow-web-api-services-openapi.json",
+   "openapi/_original/thomson-reuters-firmflow-web-api-services-openapi.yml",
+   "openapi/_original/thomson-reuters-firmflow-web-api-services-v1-openapi.json",
+   "openapi/_original/thomson-reuters-firmflow-web-api-services-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-firms-api-2-0-openapi.json",
+   "openapi/_original/thomson-reuters-firms-api-2-0-openapi.yml",
+   "openapi/_original/thomson-reuters-firms-api-openapi.json",
+   "openapi/_original/thomson-reuters-general-ledger-manager-openapi.json",
+   "openapi/_original/thomson-reuters-general-ledger-manager-openapi.yml",
+   "openapi/_original/thomson-reuters-gofileroom-web-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-gofileroom-web-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-gofileroom-web-api-v1-v1-openapi.json",
+   "openapi/_original/thomson-reuters-gofileroom-web-api-v1-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-gosystem-e-file-api-openapi.json",
+   "openapi/_original/thomson-reuters-gosystem-locator-api-openapi.json",
+   "openapi/_original/thomson-reuters-gosystem-tax-documents-print-api-openapi.json",
+   "openapi/_original/thomson-reuters-gosystem-tax-return-api-openapi.json",
+   "openapi/_original/thomson-reuters-gosystem-tbb-api-openapi.json",
+   "openapi/_original/thomson-reuters-gosystem-user-management-api-openapi.json",
+   "openapi/_original/thomson-reuters-indirect-tax-determination-registration-numbers-vat-service-openapi.json",
+   "openapi/_original/thomson-reuters-indirect-tax-determination-registration-numbers-vat-service-openapi.yml",
+   "openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.json",
+   "openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.yml",
+   "openapi/_original/thomson-reuters-ingest-service-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-ingest-service-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-ingest-service-openapi.json",
+   "openapi/_original/thomson-reuters-ingest-service-openapi.yml",
+   "openapi/_original/thomson-reuters-job-service-openapi.json",
+   "openapi/_original/thomson-reuters-job-service-openapi.yml",
+   "openapi/_original/thomson-reuters-locations-api-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-locations-api-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-locations-api-openapi.json",
+   "openapi/_original/thomson-reuters-matters-api-1-9-openapi.json",
+   "openapi/_original/thomson-reuters-matters-api-1-9-openapi.yml",
+   "openapi/_original/thomson-reuters-matters-api-openapi.json",
+   "openapi/_original/thomson-reuters-monument-collaborate-uat-openapi.json",
+   "openapi/_original/thomson-reuters-monument-collaborate-uat-openapi.yml",
+   "openapi/_original/thomson-reuters-next-generation-reporting-rest-apis-openapi.json",
+   "openapi/_original/thomson-reuters-next-generation-reporting-rest-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-oauth2-for-onesource-apis-openapi.json",
+   "openapi/_original/thomson-reuters-oauth2-for-onesource-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-ogt-next-platform-openapi.json",
+   "openapi/_original/thomson-reuters-ogt-next-platform-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-api-administration-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-api-administration-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-action-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-company-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-consolidated-apis-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-consolidated-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-external-status-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-document-presentation-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-document-presentation-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-source-document-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-source-document-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-target-document-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-e-invoicing-get-target-document-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-einvoice-1-3-2-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-einvoice-1-3-2-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-einvoice-1-4-0-1-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-einvoice-1-4-0-1-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-einvoice-2-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-einvoice-2-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-einvoice-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-einvoice-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-help-and-support-search-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-charts-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-e-file-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-e-file-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-e-file-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-income-tax-import-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-print-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-tax-return-import-export-apis-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-income-tax-tax-return-import-export-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-configuration-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-imports-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-imports-api-v2-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-imports-api-v2-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-process-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-indirect-tax-compliance-reports-api-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-tax-provision-odata-apis-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-tax-provision-odata-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-administration-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-administration-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-services-v2-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-services-v2-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-shipment-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-trust-tax-shipment-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-trusts-imports-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-trusts-imports-openapi.yml",
+   "openapi/_original/thomson-reuters-onesource-workflow-openapi.json",
+   "openapi/_original/thomson-reuters-onesource-workflow-openapi.yml",
+   "openapi/_original/thomson-reuters-open-banking-openapi.json",
+   "openapi/_original/thomson-reuters-open-banking-openapi.yml",
+   "openapi/_original/thomson-reuters-osa-odata-query-service-api-openapi.json",
+   "openapi/_original/thomson-reuters-predictive-mapping-service-openapi.json",
+   "openapi/_original/thomson-reuters-predictive-mapping-service-openapi.yml",
+   "openapi/_original/thomson-reuters-prints-api-openapi.json",
+   "openapi/_original/thomson-reuters-prints-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-prints-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-referencedata-financial-hierarchy-service-openapi.json",
+   "openapi/_original/thomson-reuters-referencedata-financial-hierarchy-service-openapi.yml",
+   "openapi/_original/thomson-reuters-reports-api-2-0-openapi.json",
+   "openapi/_original/thomson-reuters-reports-api-2-0-openapi.yml",
+   "openapi/_original/thomson-reuters-reports-api-2-openapi.json",
+   "openapi/_original/thomson-reuters-reports-api-2-openapi.yml",
+   "openapi/_original/thomson-reuters-reports-api-openapi.json",
+   "openapi/_original/thomson-reuters-reports-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-reports-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-reports-openapi.json",
+   "openapi/_original/thomson-reuters-reports-openapi.yml",
+   "openapi/_original/thomson-reuters-schematic-service-openapi.json",
+   "openapi/_original/thomson-reuters-schematic-service-openapi.yml",
+   "openapi/_original/thomson-reuters-statutory-reporting-period-setup-apis-openapi.json",
+   "openapi/_original/thomson-reuters-statutory-reporting-period-setup-apis-openapi.yml",
+   "openapi/_original/thomson-reuters-stay-up-to-date-on-client-activity-webhooks-openapi.json",
+   "openapi/_original/thomson-reuters-stay-up-to-date-on-client-activity-webhooks-openapi.yml",
+   "openapi/_original/thomson-reuters-swagger-documentation-for-graph-services-openapi.json",
+   "openapi/_original/thomson-reuters-swagger-documentation-for-graph-services-openapi.yml",
+   "openapi/_original/thomson-reuters-tax-account-mappings-api-openapi.json",
+   "openapi/_original/thomson-reuters-tax-account-mappings-api-v1-openapi.json",
+   "openapi/_original/thomson-reuters-tax-account-mappings-api-v1-openapi.yml",
+   "openapi/_original/thomson-reuters-tax-return-import-export-api-openapi.json",
+   "openapi/_original/thomson-reuters-template-service-openapi.json",
+   "openapi/_original/thomson-reuters-template-service-openapi.yml",
+   "openapi/_original/thomson-reuters-topic-service-openapi.json",
+   "openapi/_original/thomson-reuters-topic-service-openapi.yml",
+   "openapi/_original/thomson-reuters-trta-efiler-services-publicapi-openapi.json",
+   "openapi/_original/thomson-reuters-trta-efiler-services-publicapi-openapi.yml",
+   "openapi/_original/thomson-reuters-user-info-api-1-0-openapi.json",
+   "openapi/_original/thomson-reuters-user-info-api-1-0-openapi.yml",
+   "openapi/_original/thomson-reuters-user-info-api-openapi.json",
+   "openapi/_original/thomson-reuters-users-api-1-4-openapi.json",
+   "openapi/_original/thomson-reuters-users-api-1-4-openapi.yml",
+   "openapi/_original/thomson-reuters-users-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "tradeshift",
+  "specs": [
+   "openapi/_original/tradeshift-external-api-openapi.yml",
+   "openapi/_original/tradeshift-mcp-bridge-openapi.json",
+   "openapi/_original/tradeshift-mcp-bridge-openapi.yml",
+   "openapi/_original/tradeshift-openapi.json"
+  ]
+ },
+ {
+  "slug": "unirateapi",
+  "specs": [
+   "openapi/_original/unirateapi-live-swagger.json",
+   "openapi/_original/unirateapi-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "vatstack",
+  "specs": [
+   "openapi/_original/vatstack-openapi.json"
+  ]
+ },
+ {
+  "slug": "vayana-network",
+  "specs": [
+   "openapi/_original/vayana-network-atlas-openapi.json",
+   "openapi/_original/vayana-network-atlas-openapi_2.json"
+  ]
+ },
+ {
+  "slug": "wingspan",
+  "specs": [
+   "openapi/_original/wingspan-payments-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "workday-payroll",
+  "specs": [
+   "openapi/_original/v1.2.json",
+   "openapi/_original/workday-payroll-payroll-input-openapi.yml",
+   "openapi/_original/workday-payroll-payroll-openapi.yml",
+   "openapi/_original/workday-payroll-payroll-results-openapi.yml",
+   "openapi/_original/workday-payroll-tax-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zeal-hq",
+  "specs": [
+   "openapi/_original/zeal-hq-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zenledger",
+  "specs": [
+   "openapi/_original/zenledger-aggregator-api-openapi.yml",
+   "openapi/_original/zenledger-compliance-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zoho-books",
+  "specs": [
+   "openapi/_original/zoho-books-openapi.yml"
+  ]
+ }
+]

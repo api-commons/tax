@@ -1,0 +1,48 @@
+aid: common-tax
+name: Tax
+type: Common
+description: 'The common Tax vocabulary, distilled from the harvested OpenAPI of 51 providers in APIs.io: shared
+  operations, JSON Schema per concept with measured adoption, and a crosswalk from the common names to each provider''s
+  own.'
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Application Programming Interface
+- API
+- Tax
+- Tax Compliance
+- Sales Tax
+- VAT
+- Common Schema
+created: '2026-11-11'
+modified: '2026-11-11'
+url: https://raw.githubusercontent.com/api-commons/tax/main/apis.yml
+specificationVersion: '0.20'
+apis:
+- aid: common-tax:tax
+  name: Common Tax Interface
+  description: The Tax interface the market already shares, measured.
+  humanURL: https://github.com/api-commons/tax
+  tags:
+  - Tax
+  - Tax Compliance
+  properties:
+  - type: OpenAPI
+    url: https://raw.githubusercontent.com/api-commons/tax/main/openapi.yml
+  - type: Profile
+    url: https://raw.githubusercontent.com/api-commons/tax/main/profile.yml
+  - type: Adopters
+    url: https://raw.githubusercontent.com/api-commons/tax/main/adopters.yml
+  - type: Rules
+    url: https://raw.githubusercontent.com/api-commons/schema-commons/main/ruleset/schema-commons-naming.yaml
+  - type: JSONSchema
+    name: tax_calculation
+    url: https://raw.githubusercontent.com/api-commons/tax/main/schema/tax_calculation.json
+  - type: JSONSchema
+    name: tax_transaction
+    url: https://raw.githubusercontent.com/api-commons/tax/main/schema/tax_transaction.json
+common:
+- type: License
+  url: https://raw.githubusercontent.com/api-commons/tax/main/LICENSE
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

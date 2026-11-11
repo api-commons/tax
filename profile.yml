@@ -1,0 +1,227 @@
+context: tax
+name: Tax
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Tax
+  - Tax Compliance
+  - Sales Tax
+  - VAT
+  - Tax Automation
+  - Indirect Tax
+  - E-Invoicing
+  - Tax Calculation
+  providers_with_harvested_openapi: 51
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded:
+  tax_calculation:
+    cadana: /tax/calculate is a payroll calculation
+    wingspan: /collaborator/1099/calculate is a contractor 1099 calculation
+    flatin-pt: /imt/calculate is a property-transfer tax quote
+duplicates: {}
+shared_specs: {}
+concepts:
+  tax_calculation:
+    segments_seen:
+      calculations: 3
+      calculate: 3
+    providers_exposing: 6
+    providers_with_readable_schema: 5
+    operations:
+    - operation: POST collection
+      providers: 5
+      share: 0.833
+      tier: core
+    - operation: GET collection
+      providers: 1
+      share: 0.167
+      tier: long-tail
+    properties:
+    - name: tax_amount
+      tier: core
+      providers: 3
+      share: 0.6
+      type: number
+      spellings:
+      - taxAmount
+      - total_tax_amount
+      - totalTaxAmount
+    long_tail_count: 122
+    long_tail_sample:
+    - customer_id
+    - gross_amount
+    - id
+    - line_items
+    - address_resolution_status
+    - address_used
+    - addresses
+    - allocation_group_name
+    - allocation_group_owner
+    - allocation_name
+    - amount
+    - basis_percent
+    - bill_of_lading
+    - breakdown
+    - business_location
+    - category
+    - cfop_code
+    - charge_type
+    - charges
+    - city
+    - classification_codes
+    - code
+    - commodity_code
+    - company_role
+    - country
+    - country_of_origin
+    - county
+    - cst_code
+    - currency
+    - customer_currency_code
+    - customer_name
+    - customer_number
+    - date
+    - delivery_term
+    - delivery_terms
+    - dept_of_consign
+    - description
+    - destination_state
+    - discount_amount
+    - document_type
+  tax_transaction:
+    segments_seen:
+      transactions: 11
+      refunds: 2
+      orders: 1
+    providers_exposing: 12
+    providers_with_readable_schema: 11
+    operations:
+    - operation: GET collection
+      providers: 8
+      share: 0.667
+      tier: core
+    - operation: POST collection
+      providers: 8
+      share: 0.667
+      tier: core
+    - operation: GET item
+      providers: 7
+      share: 0.583
+      tier: core
+    - operation: UPDATE item
+      providers: 5
+      share: 0.417
+      tier: extended
+    - operation: DELETE item
+      providers: 3
+      share: 0.25
+      tier: extended
+    properties:
+    - name: id
+      tier: core
+      providers: 9
+      share: 0.818
+      type: string
+      spellings:
+      - id
+      - transaction_id
+      - transactionId
+      - calculation_id
+    - name: amount
+      tier: core
+      providers: 7
+      share: 0.636
+      type: number
+      spellings:
+      - amount
+      - totalAmount
+      - total_amount
+      - taxable_amount
+    - name: date
+      tier: core
+      providers: 6
+      share: 0.545
+      type: string
+      spellings:
+      - date
+      - transaction_date
+      - transactionDate
+    - name: type
+      tier: core
+      providers: 6
+      share: 0.545
+      type: string
+      spellings:
+      - type
+      - transactionType
+    - name: line_items
+      tier: extended
+      providers: 5
+      share: 0.455
+      type: array
+      spellings:
+      - items
+      - line_items
+      - lines
+    - name: currency
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - currency
+      - currency_code
+    - name: status
+      tier: extended
+      providers: 3
+      share: 0.273
+      type: string
+      spellings:
+      - status
+    long_tail_count: 109
+    long_tail_sample:
+    - addresses
+    - code
+    - country_code
+    - created_at
+    - customer_id
+    - description
+    - direction
+    - metadata
+    - quantity
+    - tax_amount
+    - account_id
+    - asset_association
+    - balance_effect
+    - bank_code
+    - beneficiary_id
+    - booking_date_time
+    - bulk_payment_reference
+    - category
+    - category_id
+    - clean_description
+    - company_id
+    - content
+    - counterpart_name
+    - created_timestamp
+    - customer_currency_code
+    - customer_vat_number
+    - deleted_at
+    - document
+    - error_context
+    - error_reason
+    - error_type
+    - error_url
+    - exemption_type
+    - external_customer_id
+    - external_id
+    - fee_amount
+    - filing_currency_code
+    - from_city
+    - from_country
+    - from_state

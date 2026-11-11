@@ -1,0 +1,20 @@
+provider: quaderno
+apis_io: https://apis.io/providers/quaderno/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_calculation:
+    path_segment:
+    - calculate
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/quaderno-openapi.yml#GET /tax_rates/calculate.json
+  tax_transaction:
+    path_segment:
+    - transactions
+    properties:
+      id: id
+    core_coverage: 0.25
+    evidence:
+    - openapi/_original/quaderno-openapi.yml#POST /transactions.json

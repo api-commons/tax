@@ -1,0 +1,1167 @@
+{
+ "cohort_size": 51,
+ "unreadable": [],
+ "concepts": {
+  "tax_calculation": {
+   "avalara": {
+    "segments": [
+     "calculations"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "taxType": "string",
+     "taxBase": "number",
+     "taxRate": "number",
+     "taxAmount": "number",
+     "exemptAmount": "number",
+     "cstCode": "string",
+     "lineCode": "string",
+     "itemCode": "string",
+     "numberOfItems": "number",
+     "lineAmount": "number",
+     "itemDescription": "string",
+     "ncmCode": "string",
+     "cfopCode": "string",
+     "originState": "string",
+     "destinationState": "string"
+    },
+    "evidence": [
+     "openapi/_original/avalara-avatax-brazil-openapi.yml#POST /calculations"
+    ]
+   },
+   "cadana": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "personId": "string",
+     "grossAmount": "object",
+     "netAmount": "object",
+     "allowances": "array",
+     "deductions": "array",
+     "employerContributions": "array",
+     "summary": "object",
+     "salary": "object",
+     "bonus": null,
+     "overtime": null,
+     "additionalAttributes": "object"
+    },
+    "evidence": [
+     "openapi/_original/cadana-global-tax-openapi.yaml#POST /v1/tax/calculate"
+    ]
+   },
+   "flatin-pt": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/flatin-pt-openapi.json#POST /api/v1/imt/calculate"
+    ]
+   },
+   "fonoa": {
+    "segments": [
+     "calculations"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "quantity": "integer",
+     "unit_price": "number",
+     "supplier_taxable": "boolean",
+     "tax_logic_label": "string",
+     "gross_amount": "number",
+     "net_amount": "number",
+     "indirect_tax_amount": "number",
+     "effective_indirect_tax_rate": "number",
+     "unit": "object",
+     "tax_breakdown": "array",
+     "supplier": "object",
+     "customer": "object",
+     "marketplace": "object",
+     "transaction": "object"
+    },
+    "evidence": [
+     "openapi/_original/fonoa-tax-engine-openapi.yml#POST /tax/v2/calculations"
+    ]
+   },
+   "numeral": {
+    "segments": [
+     "calculations"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "object": "string",
+     "customer_currency_code": "string",
+     "line_items": "array",
+     "total_tax_amount": "integer",
+     "total_amount_excluding_tax": "integer",
+     "total_amount_including_tax": "integer",
+     "expires_at": "string",
+     "testmode": "boolean",
+     "address_resolution_status": "string",
+     "address_used": "object",
+     "customer": "object",
+     "origin_address": "object",
+     "order_details": "object",
+     "metadata": "object"
+    },
+    "evidence": [
+     "openapi/_original/numeral-openapi.yml#POST /tax/calculations"
+    ]
+   },
+   "quaderno": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {
+     "country": "string",
+     "region": "string",
+     "county": "string",
+     "city": "string",
+     "name": "string",
+     "rate": "number",
+     "tax_behavior": "string",
+     "notes": "string",
+     "status": "string"
+    },
+    "evidence": [
+     "openapi/_original/quaderno-openapi.yml#GET /tax_rates/calculate.json"
+    ]
+   },
+   "thomson-reuters": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "location": "string",
+     "category": "string",
+     "code": "string",
+     "messageText": "string",
+     "messageLevel": "string",
+     "chargeType": "string",
+     "basisPercent": "number",
+     "commodityCode": "string",
+     "countryOfOrigin": "string",
+     "customerName": "string",
+     "customerNumber": "string",
+     "deliveryTerms": "string",
+     "description": "string",
+     "discountAmount": "number",
+     "grossAmount": "number",
+     "lineNumber": "string",
+     "partNumber": "string",
+     "pointOfTitleTransfer": "string",
+     "messages": "array",
+     "taxCode": "string",
+     "taxSummary": "object",
+     "transactionType": "string",
+     "userAttributes": "array",
+     "totalTaxAmount": "number",
+     "taxes": "array",
+     "charges": "array",
+     "userElementAmount": "array",
+     "userElementDate": "array",
+     "classificationCodes": "array",
+     "quantities": "array",
+     "vendorChargeTax": "object",
+     "companyRole": "string",
+     "externalCompanyId": "string",
+     "hostRequestLogId": "string",
+     "processingOptions": "object",
+     "addresses": "array",
+     "currencyCode": "string",
+     "deliveryTerm": "object",
+     "deptOfConsign": "string",
+     "documentType": "string",
+     "endUserName": "string",
+     "inclusiveTaxIndicator": "object",
+     "documentDate": "string",
+     "isBusinessSupply": "boolean",
+     "isCredit": "boolean",
+     "isExempt": "object",
+     "isSimplification": "boolean",
+     "modeOfTransport": "string",
+     "movementDate": "string",
+     "movementType": "string",
+     "natureOfTransactionCode": "string",
+     "originalDocumentDate": "string",
+     "portOfEntry": "string",
+     "portOfLoading": "string",
+     "regime": "string",
+     "registrations": "array",
+     "statisticalProcedure": "string",
+     "titleTransferLocation": "string",
+     "taxDeterminationDate": "string",
+     "vatGroupRegistration": "string",
+     "vendorName": "string",
+     "vendorNumber": "string",
+     "billOfLading": "object",
+     "isExchange": "boolean",
+     "licenses": "object",
+     "operatingLicenses": "object",
+     "vendorGroupName": "string",
+     "vendorGroupOwner": "string",
+     "userAmountAttributes": "array",
+     "userDateAttributes": "array",
+     "allocationGroupName": "string",
+     "allocationGroupOwner": "string",
+     "allocationName": "string",
+     "businessLocation": "string",
+     "relatedLineAmounts": "array",
+     "lines": "array"
+    },
+    "evidence": [
+     "openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.json#POST /v1/calculate",
+     "openapi/_original/thomson-reuters-indirect-tax-determination-rest-tax-service-openapi.yml#POST /v1/calculate"
+    ]
+   },
+   "wingspan": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "achCreditAccount": "object",
+     "client": "object",
+     "clientData": "object",
+     "clientId": "string",
+     "clientUserAccountType": "string",
+     "createdAt": "string",
+     "emailTo": "string",
+     "eventActors": "object",
+     "events": "object",
+     "externalIds": "object",
+     "form1099Balances": "object",
+     "formW9Data": "object",
+     "internationalWireAccount": "object",
+     "labels": "object",
+     "member": "object",
+     "memberClientId": "string",
+     "memberData": "object",
+     "memberId": "string",
+     "parentMemberClientId": "string",
+     "payerPayeeId": "string",
+     "status": "string",
+     "taxStatus": "string",
+     "updatedAt": "string",
+     "userRoles": "object",
+     "collaboratorGroupId": [
+      "string",
+      "null"
+     ],
+     "collaboratorGroupIds": [
+      "array",
+      "null"
+     ],
+     "company": [
+      "string",
+      "null"
+     ],
+     "eligibilityRequirements": [
+      "array",
+      "null"
+     ],
+     "emailCC": [
+      "array",
+      "null"
+     ],
+     "integration": null,
+     "name": [
+      "string",
+      "null"
+     ],
+     "year": "number"
+    },
+    "evidence": [
+     "openapi/_original/wingspan-payments-openapi-original.yml#POST /payments/collaborator/1099/calculate"
+    ]
+   },
+   "workday-payroll": {
+    "segments": [
+     "calculate"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/workday-payroll-payroll-openapi.yml#POST /payRuns/{payRunId}/calculate"
+    ]
+   }
+  },
+  "tax_transaction": {
+   "avalara": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "integer",
+     "code": "string",
+     "companyId": "integer",
+     "date": "string",
+     "status": "string",
+     "type": "string",
+     "totalAmount": "number",
+     "totalTax": "number",
+     "totalTaxable": "number",
+     "totalExempt": "number",
+     "lines": "array",
+     "addresses": "array",
+     "summary": "array",
+     "transactionId": "string",
+     "invoiceNumber": "string",
+     "transactionDate": "string",
+     "transactionType": "string",
+     "supplierVATNumber": "string",
+     "customerVATNumber": "string",
+     "countryCode": "string",
+     "netAmount": "number",
+     "vatRate": "number",
+     "vatAmount": "number",
+     "currency": "string"
+    },
+    "evidence": [
+     "openapi/_original/avalara-avatax-brazil-openapi.yml#GET /transactions",
+     "openapi/_original/avalara-avatax-rest-openapi.yml#GET /api/v2/companies/{companyCode}/transactions/{transactionCode}",
+     "openapi/_original/avalara-excise-openapi.yml#GET /Transactions",
+     "openapi/_original/avalara-excise-openapi.yml#GET /Transactions/{transactionId}",
+     "openapi/_original/avalara-excise-openapi.yml#POST /Transactions",
+     "openapi/_original/avalara-vat-reporting-openapi.yml#GET /transactions",
+     "openapi/_original/avalara-vat-reporting-openapi.yml#POST /transactions",
+     "openapi/_original/avatax-apis-openapi.yml#GET /api/v2/companies/{companyCode}/transactions",
+     "openapi/_original/avatax-apis-openapi.yml#GET /api/v2/companies/{companyCode}/transactions/{transactionCode}",
+     "openapi/_original/avatax-apis-openapi.yml#GET /api/v2/transactions/{id}",
+     "openapi/_original/avatax-apis-openapi.yml#POST /api/v2/companies/{companyId}/batches/transactions"
+    ]
+   },
+   "cadana": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "type": "string",
+     "beneficiaryId": "string",
+     "quoteId": "string",
+     "reference": "string",
+     "amount": "object",
+     "sourceAmount": "object",
+     "feeAmount": "object",
+     "fxRate": "string",
+     "status": "string",
+     "createdTimestamp": "integer",
+     "lastUpdatedTimestamp": "integer",
+     "document": "object",
+     "sourceCurrency": "string",
+     "vendorId": "string",
+     "vendorName": "string",
+     "direction": "string",
+     "balanceEffect": "string",
+     "paymentDetails": "object",
+     "transactionFee": "object",
+     "totalAmount": "object",
+     "reason": "string",
+     "bulkPaymentReference": "string",
+     "date": "string"
+    },
+    "evidence": [
+     "openapi/_original/cadana-embedded-consumer-wallets-openapi.yaml#GET /v1/users/{userId}/transactions",
+     "openapi/_original/cadana-embedded-consumer-wallets-openapi.yaml#GET /v1/users/{userId}/transactions/{transactionId}",
+     "openapi/_original/cadana-embedded-consumer-wallets-openapi.yaml#POST /v1/users/{userId}/transactions",
+     "openapi/_original/cadana-workforce-management-openapi.yaml#GET /v1/businesses/{businessId}/transactions"
+    ]
+   },
+   "fonoa": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "country_code": "string",
+     "currency_code": "string",
+     "customer": "object",
+     "direction": "string",
+     "items": "array",
+     "language_code": "string",
+     "note": "string",
+     "operation_regime": "string",
+     "payments": "array",
+     "reference_transaction_id": "string",
+     "supplier": "object",
+     "total_amount": "number",
+     "total_net_amount": "number",
+     "total_tax_amount": "number",
+     "transaction_date": "string",
+     "transaction_id": "string",
+     "transaction_number": "string",
+     "type": "string"
+    },
+    "evidence": [
+     "openapi/_original/fonoa-e-invoicing-openapi.yml#POST /v1/transactions"
+    ]
+   },
+   "kintsugi": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item",
+     "POST collection"
+    ],
+    "properties": {
+     "items": "array",
+     "total": "integer",
+     "page": "integer",
+     "size": "integer",
+     "pages": "integer",
+     "external_id": "string",
+     "date": "string",
+     "currency": "string",
+     "status": "string",
+     "external_customer_id": "string",
+     "addresses": "array",
+     "transaction_items": "array",
+     "id": "string",
+     "total_tax_amount_calculated": "string",
+     "taxable_amount": "string",
+     "created_at": "string",
+     "updated_at": "string"
+    },
+    "evidence": [
+     "openapi/_original/kintsugi-openapi.yml#GET /filings/{filing_id}/transactions",
+     "openapi/_original/kintsugi-openapi.yml#GET /transactions",
+     "openapi/_original/kintsugi-openapi.yml#GET /transactions/{id}",
+     "openapi/_original/kintsugi-openapi.yml#PATCH /transactions/{id}",
+     "openapi/_original/kintsugi-openapi.yml#POST /transactions"
+    ]
+   },
+   "numeral": {
+    "segments": [
+     "transactions",
+     "refunds"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET item",
+     "POST collection"
+    ],
+    "properties": {
+     "id": "string",
+     "object": "string",
+     "calculation_id": "string",
+     "reference_order_id": "string",
+     "customer_currency_code": "string",
+     "filing_currency_code": "string",
+     "line_items": "array",
+     "testmode": "boolean",
+     "metadata": "object",
+     "transaction_processed_at": "string",
+     "deleted_at": "string",
+     "reference_product_id": "string",
+     "amount": "integer",
+     "quantity": "integer",
+     "product_category": "string"
+    },
+    "evidence": [
+     "openapi/_original/numeral-openapi.yml#DELETE /tax/transactions/{transaction_id}",
+     "openapi/_original/numeral-openapi.yml#GET /tax/transactions/{transaction_id}",
+     "openapi/_original/numeral-openapi.yml#POST /tax/refunds",
+     "openapi/_original/numeral-openapi.yml#POST /tax/transactions"
+    ]
+   },
+   "para-t": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item"
+    ],
+    "properties": {
+     "id": "string",
+     "type": "string",
+     "attributes": "object",
+     "relationships": "object"
+    },
+    "evidence": [
+     "openapi/_original/para-t-openapi-original.yml#DELETE /{company_id}/transactions/{id}",
+     "openapi/_original/para-t-openapi-original.yml#GET /{company_id}/accounts/{id}/transactions",
+     "openapi/_original/para-t-openapi-original.yml#GET /{company_id}/transactions/{id}"
+    ]
+   },
+   "procuros": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "procurosTransactionId": "string",
+     "type": "string",
+     "replacesProcurosTransactionId": "string",
+     "replacedByProcurosTransactionId": "string",
+     "isLatestVersion": "boolean",
+     "content": null,
+     "message": "string",
+     "errorUrl": "string",
+     "success": "boolean",
+     "errorReason": "string",
+     "errorType": "string",
+     "errorContext": "object"
+    },
+    "evidence": [
+     "openapi/_original/procuros-openapi-original.yml#GET /v2/transactions",
+     "openapi/_original/procuros-openapi-original.yml#POST /v2/transactions",
+     "openapi/_original/procuros-openapi-original.yml#PUT /v2/transactions/{procurosTransactionId}"
+    ]
+   },
+   "quaderno": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "POST collection"
+    ],
+    "properties": {
+     "description": "string",
+     "quantity": "number",
+     "unit_price": "number",
+     "tax_code": "string",
+     "id": "string",
+     "total": "number",
+     "taxes": "number"
+    },
+    "evidence": [
+     "openapi/_original/quaderno-openapi.yml#POST /transactions.json"
+    ]
+   },
+   "sibill": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection",
+     "GET item",
+     "PATCH item"
+    ],
+    "properties": {
+     "account_id": "string",
+     "amount": "object",
+     "bank_code": "string",
+     "booking_date_time": "string",
+     "category": "object",
+     "clean_description": "string",
+     "counterpart_name": "string",
+     "created_at": "string",
+     "date": "string",
+     "description": "string",
+     "id": "string",
+     "reconciliations": "array",
+     "subcategory": "object",
+     "type": "string",
+     "value_date_time": "string",
+     "category_id": "string",
+     "subcategory_id": "string"
+    },
+    "evidence": [
+     "openapi/_original/sibill-openapi-original.json#GET /api/v1/companies/{company_id}/transactions",
+     "openapi/_original/sibill-openapi-original.json#GET /api/v1/companies/{company_id}/transactions/{id}",
+     "openapi/_original/sibill-openapi-original.json#PATCH /api/v1/companies/{company_id}/transactions/{id}"
+    ]
+   },
+   "taxjar": {
+    "segments": [
+     "orders",
+     "refunds"
+    ],
+    "operations": [
+     "DELETE item",
+     "GET collection",
+     "GET item",
+     "POST collection",
+     "PUT item"
+    ],
+    "properties": {
+     "orders": "array",
+     "transaction_id": "string",
+     "user_id": "integer",
+     "transaction_date": "string",
+     "provider": "string",
+     "exemption_type": "string",
+     "from_country": "string",
+     "from_zip": "string",
+     "from_state": "string",
+     "from_city": "string",
+     "from_street": "string",
+     "to_country": "string",
+     "to_zip": "string",
+     "to_state": "string",
+     "to_city": "string",
+     "to_street": "string",
+     "amount": "number",
+     "shipping": "number",
+     "sales_tax": "number",
+     "line_items": "array",
+     "customer_id": "string",
+     "refunds": "array",
+     "transaction_reference_id": "string"
+    },
+    "evidence": [
+     "openapi/_original/taxjar-sales-tax-openapi.yml#DELETE /transactions/orders/{transaction_id}",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#DELETE /transactions/refunds/{transaction_id}",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/orders",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/orders/{transaction_id}",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/refunds",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/refunds/{transaction_id}",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#POST /transactions/orders",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#POST /transactions/refunds",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#PUT /transactions/orders/{transaction_id}",
+     "openapi/_original/taxjar-sales-tax-openapi.yml#PUT /transactions/refunds/{transaction_id}"
+    ]
+   },
+   "thomson-reuters": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "PUT item"
+    ],
+    "properties": {
+     "yrseq": "integer",
+     "general": "object",
+     "asset_association": "object",
+     "paid_for": "object",
+     "paid_to": "object",
+     "paid_by": "object",
+     "trust_accounting_system": "object",
+     "preparer_notes": "array"
+    },
+    "evidence": [
+     "openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.json#PUT /v1/tax-years/{tax-year}/pans/{pan}/accounts/{acctNo}/transactions/{transactionid}",
+     "openapi/_original/thomson-reuters-onesource-trust-tax-services-v1-openapi.yml#PUT /v1/tax-years/{tax-year}/pans/{pan}/accounts/{acctNo}/transactions/{transactionid}"
+    ]
+   },
+   "zenledger": {
+    "segments": [
+     "transactions"
+    ],
+    "operations": [
+     "GET collection"
+    ],
+    "properties": {},
+    "evidence": [
+     "openapi/_original/zenledger-compliance-api-openapi.yml#GET /compliance/api/v3/companies/{company_reference}/transactions",
+     "openapi/_original/zenledger-compliance-api-openapi.yml#GET /compliance/api/v3/companies/{company_reference}/users/{user_id}/transactions"
+    ]
+   }
+  }
+ },
+ "naming": {
+  "path_segment": {
+   "lower": [
+    "agicap",
+    "aibidia",
+    "anrok",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "cadana",
+    "caseys-general-stores",
+    "causa-prima",
+    "charityapi",
+    "contalink",
+    "earnipay",
+    "ecosio",
+    "fastspring",
+    "flatin-pt",
+    "flowaccount",
+    "fonoa",
+    "freeagent",
+    "hmrc",
+    "infocert",
+    "intuit",
+    "kintsugi",
+    "kpmg",
+    "mileiq",
+    "mosey",
+    "numeral",
+    "optionsahoy-com",
+    "para-t",
+    "procuros",
+    "quaderno",
+    "remitian",
+    "salsa",
+    "sibill",
+    "sirenic-eu",
+    "sphere-tax",
+    "storecove",
+    "tax-reporting-templates",
+    "taxjar",
+    "taxley",
+    "thomson-reuters",
+    "tradeshift",
+    "unirateapi",
+    "vatstack",
+    "vayana-network",
+    "wingspan",
+    "workday-payroll",
+    "zeal-hq",
+    "zenledger",
+    "zoho-books"
+   ],
+   "kebab-case": [
+    "agicap",
+    "aibidia",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "cadana",
+    "caseys-general-stores",
+    "causa-prima",
+    "contalink",
+    "earnipay",
+    "fastspring",
+    "flowaccount",
+    "fonoa",
+    "infocert",
+    "kintsugi",
+    "kpmg",
+    "mileiq",
+    "optionsahoy-com",
+    "procuros",
+    "remitian",
+    "salsa",
+    "sibill",
+    "sirenic-eu",
+    "taxley",
+    "thomson-reuters",
+    "tradeshift",
+    "vayana-network",
+    "wingspan"
+   ],
+   "other": [
+    "agicap",
+    "anrok",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "flatin-pt",
+    "infocert",
+    "para-t",
+    "sirenic-eu",
+    "thomson-reuters",
+    "vayana-network",
+    "wingspan"
+   ],
+   "camelCase": [
+    "anrok",
+    "avalara",
+    "basware",
+    "cadana",
+    "ecosio",
+    "infocert",
+    "thomson-reuters",
+    "tradeshift",
+    "vayana-network",
+    "wingspan",
+    "workday-payroll",
+    "zeal-hq"
+   ],
+   "snake_case": [
+    "charityapi",
+    "freeagent",
+    "mosey",
+    "numeral",
+    "para-t",
+    "quaderno",
+    "sphere-tax",
+    "storecove",
+    "taxjar",
+    "thomson-reuters"
+   ],
+   "PascalCase": [
+    "agicap",
+    "automatic-data-processing",
+    "avalara",
+    "caseys-general-stores",
+    "flowaccount",
+    "infocert",
+    "sirenic-eu",
+    "thomson-reuters",
+    "tradeshift"
+   ]
+  },
+  "path_param": {
+   "lower": [
+    "agicap",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "caseys-general-stores",
+    "causa-prima",
+    "charityapi",
+    "contalink",
+    "earnipay",
+    "flatin-pt",
+    "flowaccount",
+    "freeagent",
+    "hmrc",
+    "infocert",
+    "kintsugi",
+    "kpmg",
+    "mosey",
+    "para-t",
+    "quaderno",
+    "sibill",
+    "sirenic-eu",
+    "storecove",
+    "taxjar",
+    "thomson-reuters",
+    "tradeshift",
+    "vatstack",
+    "vayana-network",
+    "wingspan"
+   ],
+   "snake_case": [
+    "agicap",
+    "basware",
+    "cadana",
+    "fastspring",
+    "fonoa",
+    "infocert",
+    "kintsugi",
+    "mileiq",
+    "mosey",
+    "numeral",
+    "para-t",
+    "quaderno",
+    "sibill",
+    "sirenic-eu",
+    "sphere-tax",
+    "storecove",
+    "taxjar",
+    "thomson-reuters",
+    "tradeshift",
+    "wingspan",
+    "zenledger",
+    "zoho-books"
+   ],
+   "camelCase": [
+    "agicap",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "cadana",
+    "caseys-general-stores",
+    "earnipay",
+    "ecosio",
+    "flowaccount",
+    "hmrc",
+    "infocert",
+    "intuit",
+    "kpmg",
+    "procuros",
+    "remitian",
+    "salsa",
+    "thomson-reuters",
+    "tradeshift",
+    "vayana-network",
+    "wingspan",
+    "workday-payroll"
+   ],
+   "kebab-case": [
+    "automatic-data-processing",
+    "thomson-reuters",
+    "vayana-network"
+   ],
+   "other": [
+    "automatic-data-processing",
+    "basware",
+    "thomson-reuters"
+   ],
+   "PascalCase": [
+    "thomson-reuters"
+   ]
+  },
+  "query_param": {
+   "lower": [
+    "agicap",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "cadana",
+    "caseys-general-stores",
+    "contalink",
+    "earnipay",
+    "ecosio",
+    "flatin-pt",
+    "flowaccount",
+    "freeagent",
+    "hmrc",
+    "infocert",
+    "intuit",
+    "kintsugi",
+    "kpmg",
+    "mileiq",
+    "mosey",
+    "numeral",
+    "optionsahoy-com",
+    "para-t",
+    "procuros",
+    "quaderno",
+    "remitian",
+    "sibill",
+    "sirenic-eu",
+    "storecove",
+    "taxjar",
+    "taxley",
+    "thomson-reuters",
+    "tradeshift",
+    "unirateapi",
+    "vatstack",
+    "vayana-network",
+    "workday-payroll",
+    "zeal-hq",
+    "zenledger"
+   ],
+   "snake_case": [
+    "agicap",
+    "avalara",
+    "basware",
+    "cadana",
+    "contalink",
+    "freeagent",
+    "infocert",
+    "kintsugi",
+    "mileiq",
+    "mosey",
+    "numeral",
+    "procuros",
+    "quaderno",
+    "sibill",
+    "sirenic-eu",
+    "taxjar",
+    "taxley",
+    "thomson-reuters",
+    "tradeshift",
+    "unirateapi",
+    "vatstack",
+    "zenledger"
+   ],
+   "camelCase": [
+    "agicap",
+    "automatic-data-processing",
+    "avalara",
+    "basware",
+    "cadana",
+    "caseys-general-stores",
+    "earnipay",
+    "ecosio",
+    "flowaccount",
+    "infocert",
+    "intuit",
+    "kpmg",
+    "remitian",
+    "thomson-reuters",
+    "tradeshift",
+    "vayana-network",
+    "workday-payroll",
+    "zeal-hq"
+   ],
+   "other": [
+    "automatic-data-processing",
+    "avalara",
+    "para-t",
+    "procuros",
+    "thomson-reuters",
+    "tradeshift",
+    "vayana-network"
+   ],
+   "PascalCase": [
+    "agicap",
+    "basware",
+    "caseys-general-stores",
+    "flowaccount",
+    "infocert",
+    "thomson-reuters"
+   ],
+   "kebab-case": [
+    "thomson-reuters"
+   ]
+  },
+  "pagination_param": {
+   "page": [
+    "avalara",
+    "cadana",
+    "contalink",
+    "earnipay",
+    "ecosio",
+    "freeagent",
+    "infocert",
+    "kintsugi",
+    "quaderno",
+    "sirenic-eu",
+    "thomson-reuters",
+    "tradeshift",
+    "vatstack",
+    "zenledger"
+   ],
+   "limit": [
+    "agicap",
+    "cadana",
+    "caseys-general-stores",
+    "earnipay",
+    "ecosio",
+    "infocert",
+    "kpmg",
+    "mileiq",
+    "remitian",
+    "thomson-reuters",
+    "tradeshift",
+    "vatstack",
+    "workday-payroll"
+   ],
+   "page_size": [
+    "agicap",
+    "avalara",
+    "basware",
+    "flowaccount",
+    "infocert",
+    "mosey",
+    "para-t",
+    "sibill",
+    "thomson-reuters"
+   ],
+   "offset": [
+    "agicap",
+    "caseys-general-stores",
+    "ecosio",
+    "infocert",
+    "remitian",
+    "thomson-reuters",
+    "tradeshift",
+    "workday-payroll"
+   ],
+   "cursor": [
+    "agicap",
+    "basware",
+    "cadana",
+    "numeral",
+    "procuros",
+    "sibill"
+   ],
+   "size": [
+    "agicap",
+    "basware",
+    "infocert",
+    "kintsugi",
+    "thomson-reuters",
+    "tradeshift"
+   ],
+   "skip": [
+    "automatic-data-processing",
+    "avalara",
+    "kpmg",
+    "thomson-reuters"
+   ],
+   "count": [
+    "automatic-data-processing",
+    "avalara",
+    "thomson-reuters",
+    "tradeshift"
+   ],
+   "top": [
+    "automatic-data-processing",
+    "avalara",
+    "thomson-reuters"
+   ],
+   "after": [
+    "agicap",
+    "tradeshift"
+   ],
+   "before": [
+    "agicap",
+    "tradeshift"
+   ],
+   "per_page": [
+    "freeagent",
+    "procuros"
+   ],
+   "next": [
+    "cadana"
+   ]
+  },
+  "property": {
+   "lower": [
+    "avalara",
+    "cadana",
+    "fonoa",
+    "kintsugi",
+    "numeral",
+    "para-t",
+    "procuros",
+    "quaderno",
+    "sibill",
+    "taxjar",
+    "thomson-reuters",
+    "wingspan"
+   ],
+   "snake_case": [
+    "fonoa",
+    "kintsugi",
+    "numeral",
+    "quaderno",
+    "sibill",
+    "taxjar",
+    "thomson-reuters"
+   ],
+   "camelCase": [
+    "avalara",
+    "cadana",
+    "procuros",
+    "thomson-reuters",
+    "wingspan"
+   ]
+  }
+ }
+}

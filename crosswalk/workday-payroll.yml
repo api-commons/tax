@@ -1,0 +1,12 @@
+provider: workday-payroll
+apis_io: https://apis.io/providers/workday-payroll/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_calculation:
+    path_segment:
+    - calculate
+    properties: {}
+    core_coverage: null
+    evidence:
+    - openapi/_original/workday-payroll-payroll-openapi.yml#POST /payRuns/{payRunId}/calculate

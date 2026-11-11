@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/tax/main/schema/tax_calculation.json",
+  "title": "Tax Calculation",
+  "description": "The common tax_calculation in Tax, distilled from 5 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "tax_amount": {
+      "type": "number",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.6,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "taxAmount",
+        "total_tax_amount",
+        "totalTaxAmount"
+      ]
+    }
+  },
+  "required": [],
+  "x-commons": {
+    "context": "tax",
+    "concept": "tax_calculation",
+    "providers": 5,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

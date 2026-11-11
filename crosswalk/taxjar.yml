@@ -1,0 +1,21 @@
+provider: taxjar
+apis_io: https://apis.io/providers/taxjar/
+context: tax
+generated: '2026-11-11'
+concepts:
+  tax_transaction:
+    path_segment:
+    - orders
+    - refunds
+    properties:
+      id: transaction_id
+      amount: amount
+      date: transaction_date
+      line_items: line_items
+    core_coverage: 0.75
+    evidence:
+    - openapi/_original/taxjar-sales-tax-openapi.yml#DELETE /transactions/orders/{transaction_id}
+    - openapi/_original/taxjar-sales-tax-openapi.yml#DELETE /transactions/refunds/{transaction_id}
+    - openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/orders
+    - openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/orders/{transaction_id}
+    - openapi/_original/taxjar-sales-tax-openapi.yml#GET /transactions/refunds
